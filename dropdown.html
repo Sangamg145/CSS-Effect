@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+		ul
+		{
+			transition: 2s;
+		}
+		ul li{
+			float: left;
+			list-style: none;
+			border: 1px solid red;
+			width: 100px;
+			text-align: center;
+			font-size: 20px;
+			transition: 2s;
+			
+		}
+		ul li ul{
+			display: none;
+		}
+		ul li:hover ul{
+			display: block;
+			transition: 2s;
+			
+		}
+		ul li ul li{
+
+			float:none;
+			margin-left: -40px;
+
+		}
+
+		
+	</style>
+</head>
+<body>
+
+	<h1>THIS IS DROPDOWN</h1>
+
+	<ul>
+		<li>Home</li>
+		<li>News
+				<ul>
+					<li>New</li>
+					<li>Latest</li>
+					<li>Old</li>
+				</ul>
+		</li>
+		<li>Creative</li>
+		<li>Gallary</li>
+		<li>Help</li>
+		<li>Other</li>
+	</ul>
+
+</body>
+</html>
